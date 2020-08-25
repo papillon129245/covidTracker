@@ -1,0 +1,156 @@
+.main {
+    min-height: 900px;
+    max-width: 1280px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.map-container {
+    height: 500px;
+}
+
+#map {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.chart-container {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.chart-container .col {
+    background-color: #EFF2F6;
+    border-radius: 12px;
+}
+
+.linear-chart {
+    height: 100%;
+}
+
+.title-container h1 {
+    color: #b02e0c;
+    margin-bottom: 0;
+}
+
+.title-container h4 {
+    text-transform: uppercase;
+    color: #CACBCF;
+}
+
+.stats-container .card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.stats-container .card-body {
+    padding: 1rem;
+}
+
+.stats-container .card-title {
+    color: #695d5c;
+    font-weight: 400;
+}
+
+.side-panel-container {
+    background-color: white;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+    /* border-radius: 30px; */
+    padding-top: 15px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.total-number {
+    color: #cc1034;
+}
+
+.recovered-number {
+    color: #7fd922;
+}
+
+.deaths-number {
+    color: #c285ff;
+
+}
+
+.header-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text-muted {
+    font-size: 0.85rem;
+}
+
+.stats-container .card-subtitle {
+    font-weight: 600;
+}
+
+.cases-table-container h4 {
+    color: #6A5D5D;
+    FONT-WEIGHT: 400;
+}
+
+.country-data .table td {
+    padding: 0.5rem;
+    border: none;
+}
+
+.table-numberCases {
+    text-align: right;
+}
+
+.table-striped>tbody>tr:nth-child(2n+1)>td,
+.table-striped>tbody>tr:nth-child(2n+1)>th {
+    background-color: #c1bfb5;
+
+}
+
+.card.active>.tab-selection {
+    opacity: 1;
+}
+
+.tab-selection {
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    border-top-color: blanchedalmond;
+    opacity: 0;
+    transition: all 0.2s;
+
+}
+
+.card:hover>.tab-selection {
+    opacity: 1;
+}
+
+.cases .tab-selection {
+    background-color: #cc1034;
+}
+
+.recovered .tab-selection {
+    background-color: #7fd922;
+}
+
+.deaths .tab-selection {
+    background-color: #C285FF;
+}
+
+.map-container {
+    padding-top: 50px;
+    background-color: white;
+    /* padding-left: 0; */
+    padding-bottom: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 12px;
+}
